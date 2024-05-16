@@ -17,7 +17,7 @@
 		zephyr,code-partition = &code_partition;
 		zephyr,sram = &sram0;
 		zephyr,flash = &flash0;
-		zmk,battery = &fuel_gauge;
+//		zmk,battery = &fuel_gauge;
 		zmk,kscan = &kscan0;
 		zmk,matrix_transform = &default_transform;
 	};
