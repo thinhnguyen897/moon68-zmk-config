@@ -77,21 +77,21 @@
 	status = "okay";
 };
 
-&i2c0 {
-	compatible = "nordic,nrf-twi";
-	status = "okay";
-	sda-pin = <7>;
-	scl-pin = <5>;
-
-/*	fuel_gauge: max17048@36 {
+/*&i2c0 {
+*	compatible = "nordic,nrf-twi";
+*	status = "okay";
+*	sda-pin = <7>;
+*	scl-pin = <5>;
+*
+*	fuel_gauge: max17048@36 {
 *		compatible = "maxim,max17048";
 *		status = "okay";
 *		label = "BATTERY";
 *		reg = <0x36>;
 *	};
+*
+*};
 */
-};
-
 &flash0 {
 	/*
 	 * For more information, see:
